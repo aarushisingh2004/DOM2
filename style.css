@@ -27,7 +27,7 @@
   
  
  .hidden-content {
-    /* display: none; */
+    display: none;
     border:1px solid #0e0d0d;
    
     padding: 20px;
@@ -43,6 +43,10 @@
   
   .reveal-btn:focus {
     outline: none;
+  }
+
+  .hidden-content.reveal-btn{
+    display:block;
   }
    
 
